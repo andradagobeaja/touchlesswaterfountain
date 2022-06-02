@@ -1,14 +1,14 @@
 void relaySetup()
 {
-  pinMode(Relay, OUTPUT); // Configure the pin of the relay module as OUTPUT
+  pinMode(Relay, OUTPUT); 
 }
 
 void relayOn()
 {
-  digitalWrite(Relay, HIGH); //Turns on the submersible water pump or solenoid water valve
+  digitalWrite(Relay, HIGH); 
 }
 
 void relayOff()
 {
-  digitalWrite(Relay, LOW); //Turns on the submersible water pump or solenoid water valve
+  digitalWrite(Relay, LOW);
 }
